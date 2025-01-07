@@ -1,0 +1,49 @@
+.boxes {
+    position: relative;
+    margin-top:10%;
+    margin-left: 40%;
+
+}
+
+.box {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.box-one {
+    border: 5px solid black;
+    z-index: 3;
+    left: 65px;
+    position:absolute;
+
+}
+
+.box-two {
+    border: 5px solid blue;
+    z-index: 1;
+    position:absolute;
+}
+
+.box-three {
+    border: 5px solid red;
+    left: 130px;
+    z-index: 5;
+    position:absolute;
+}
+
+.box-four {
+    border: 5px solid yellow;
+    left: 30px;
+    top:30px;
+    z-index: 2;
+    position:absolute;
+}
+
+.box-five {
+    border: 5px solid green;
+    top:30px;
+    left: 97px;
+    z-index: 4;
+    position:absolute;
+}
