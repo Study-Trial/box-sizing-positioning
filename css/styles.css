@@ -1,19 +1,26 @@
 .container {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    height: 100vh;
+    flex-direction: column;
+    /* align-items: center; */
+    height: 90vh;
+    width: 80vh;
     justify-content:space-evenly;
+    flex-wrap: wrap;
 }
 .box {
-    width: 100px;
-    height: 100px;
+    width: 10vh;
+    height: 10vh;
     background-color: gold;
-    border: 3px solid gray;
-    margin-top: 30px;
-    align-content: center;
 }
 
 .container div:nth-child(odd){
-    align-self: flex-start;
+        width: 10vh;
+        height: 10vh;
+        background-color: black;
+}
+
+.container div:nth-child(9n){
+    width: 10vh;
+    height: 10vh;
+    background-color: white;
 }
