@@ -1,3 +1,12 @@
+.text {
+    text-align: center;
+}
+.text-block {
+    display: inline-block;
+    width: 500px;
+    text-align: center;
+}
+
 .boxes {
     position: relative;
     border: 3px solid red;
@@ -36,7 +45,7 @@
 
 .box-four {
     border: 5px solid yellow;
-    left: 30px;
+    left: 32px;
     top:30px;
     z-index: 2;
     position:absolute;
@@ -45,7 +54,7 @@
 .box-five {
     border: 5px solid green;
     top:30px;
-    left: 97px;
+    left: 98px;
     z-index: 4;
     position:absolute;
 }
