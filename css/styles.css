@@ -1,24 +1,11 @@
-.container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    height: 100vh;
-    justify-content:space-evenly;
-}
-.box {
-    width: 100px;
-    height: 100px;
-    background-color: gold;
-    border: 3px solid gray;
-    flex-grow: 1;
-    margin: 5px;
-}
-.box-one{
-    flex-grow: 0;
+html {
+    font-size: 62.5%;
 }
 
-.box-two{
-    flex-grow: 2;
-    align-self: flex-end;
-    flex-shrink: 2;
+.box {
+    width: 10em;
+    height: 10em;
+    border: 3px solid gray;
+    font-size: 3rem;
+    box-sizing: border-box;
 }
