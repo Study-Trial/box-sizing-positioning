@@ -2,11 +2,30 @@ html {
     font-size: 62.5%;
 }
 
-.box {
-    width: 10em;
-    height: 10em;
-    border: 3px solid gray;
-    font-size: 3rem;
-    box-sizing: border-box;
-    overflow:auto;
+.gallery--item_title {
+    display: block;
+    font-size: 2rem;
+    width: 12rem;
+    height: 2.5rem;
+    text-align: center;
+    color:darkgreen;
+    background-color: bisque;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.gallery {
+    list-style:none;
+}
+.gallery--item_image {
+    display: block;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+
+}
+.gallery--item {
+    outline: 6px, solid, gray;
+    border: 6px, solid, gray;
+    border-radius: 30px;
+    display: inline-block;
+    margin: 10px;
 }
