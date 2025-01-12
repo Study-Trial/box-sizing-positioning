@@ -8,4 +8,5 @@ html {
     border: 3px solid gray;
     font-size: 3rem;
     box-sizing: border-box;
+    overflow:auto;
 }
