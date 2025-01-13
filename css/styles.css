@@ -10,22 +10,21 @@ html {
     text-align: center;
     color:darkgreen;
     background-color: bisque;
-    border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 2.3rem;
+    border-bottom-right-radius: 2.3rem;
 }
 .gallery {
     list-style:none;
 }
 .gallery--item_image {
     display: block;
-    border-top-left-radius: 24px;
-    border-top-right-radius: 24px;
+    border-top-left-radius: 2.4rem;
+    border-top-right-radius: 2.4rem;
 
 }
 .gallery--item {
-    outline: 6px, solid, gray;
-    border: 6px, solid, gray;
-    border-radius: 30px;
+    border: 0.6rem, solid, gray;
+    border-radius: 3rem;
     display: inline-block;
-    margin: 10px;
+    margin: 1rem;
 }
